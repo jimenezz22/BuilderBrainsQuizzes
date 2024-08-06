@@ -1,0 +1,30 @@
+# Variables
+
+### Question 1
+
+Which syntax creates a variable that can be reassigned?
+
+A) `let mut x = 99;`
+
+B) `const MINUTES_PER_HOUR = 60;`
+
+C) `let y = 10;`
+
+### Question 2
+
+What will be the output of the following program?
+
+```rust
+fn main() {
+    let initial_balance = 9;
+    let initial_balance = initial_balance - 3;
+    {
+        let initial_balance = initial_balance * 2;
+    }
+    println!("Final balance is: {}", initial_balance);
+}
+```
+
+A) Final balance is: 6
+B) Final balance is: 12
+C) The program won't compile.

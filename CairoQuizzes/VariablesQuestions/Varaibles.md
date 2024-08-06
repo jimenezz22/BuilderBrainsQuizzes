@@ -25,6 +25,7 @@ fn main() {
 }
 ```
 
-A) Final balance is: 6
-B) Final balance is: 12
+A) Final balance is: 6. 
+
+B) Final balance is: 12. 
 C) The program won't compile.

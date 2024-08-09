@@ -30,3 +30,22 @@ A) Final balance is: 6.
 B) Final balance is: 12. 
 
 C) The program won't compile.
+
+### Question 3
+
+How to make this program compile?
+
+```rust
+fn main() {
+    x = 5;
+    println!("The value of x is: {}", x);
+    x = 6;
+    println!("The value of x is: {}", x);
+}
+```
+
+A) x = 5_u8;
+
+B) let x = 5;
+
+C) let mut x = 5;

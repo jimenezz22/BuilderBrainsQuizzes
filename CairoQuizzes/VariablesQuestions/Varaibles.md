@@ -49,3 +49,25 @@ A) x = 5_u8;
 B) let x = 5;
 
 C) let mut x = 5;
+
+### Question 4
+
+What concept applies in this code fragment?
+
+```rust
+fn main() {
+    let x = 5;
+    let x = x + 1;
+    {
+        let x = x * 2;
+        println!("Inner scope x value is: {}", x);
+    }
+    println!("Outer scope x value is: {}", x);
+}
+```
+
+A) Mutability
+
+B) Shadowing
+
+C) Constants

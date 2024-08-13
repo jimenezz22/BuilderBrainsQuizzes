@@ -10,6 +10,8 @@ B) `const MINUTES_PER_HOUR = 60;`
 
 C) `let y = 10;`
 
+Correct answer: A
+
 ### Question 2
 
 What will be the output of the following program?
@@ -31,6 +33,8 @@ B) Final balance is: 12.
 
 C) The program won't compile.
 
+Correct answer: A
+
 ### Question 3
 
 How to make this program compile?
@@ -49,6 +53,8 @@ A) x = 5_u8;
 B) let x = 5;
 
 C) let mut x = 5;
+
+Correct answer: C
 
 ### Question 4
 
@@ -72,6 +78,8 @@ B) Shadowing
 
 C) Constants
 
+Correct answer: B
+
 ### Question 5
 
 What value will be printed when executing the following code, considering the concept of shadowing?
@@ -93,3 +101,5 @@ A) Internal value of x: 3 and External value of x: 6
 B) Internal value of x: 6 and External value of x: 3 
 
 C) Internal value of x: 6 and External value of x: 6
+
+Correct answer: B

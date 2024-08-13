@@ -71,3 +71,25 @@ A) Mutability
 B) Shadowing
 
 C) Constants
+
+### Question 5
+
+What value will be printed when executing the following code, considering the concept of shadowing?
+
+```rust
+fn main() {
+    let x = 3;
+    {
+        let x = x * 2;
+        println!("Valor interno de x: {}", x);
+    }
+    println!("Valor externo de x: {}", x);
+}
+
+```
+
+A) Internal value of x: 3 and External value of x: 6 
+
+B) Internal value of x: 6 and External value of x: 3 
+
+C) Internal value of x: 6 and External value of x: 6

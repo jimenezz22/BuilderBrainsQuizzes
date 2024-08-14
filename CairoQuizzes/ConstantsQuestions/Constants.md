@@ -42,3 +42,22 @@ B) STRUCT_INSTANCE is an instance of a structure with two fields, a of type u256
 C) STRUCT_INSTANCE is an array of boolean values.
 
 Correct answer: B
+
+### Question #3
+
+What value does the first element of the BOOL_FIXED_SIZE_ARRAY constant contain?
+
+```rust
+const ONE_HOUR_IN_SECONDS: u32 = 3600;
+const STRUCT_INSTANCE: AnyStruct = AnyStruct { a: 0, b: 1 };
+const ENUM_INSTANCE: AnyEnum = AnyEnum::A('any enum');
+const BOOL_FIXED_SIZE_ARRAY: [bool; 2] = [true, false];
+```
+
+A) `false`
+
+B) `true`
+
+C) `null`
+
+Correct answer: B

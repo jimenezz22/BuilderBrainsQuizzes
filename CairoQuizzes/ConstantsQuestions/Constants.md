@@ -90,3 +90,17 @@ B) AnyEnum
 C) felt252
 
 Correct answer: B
+
+### Question #5
+
+In Cairo, constants are always immutable and must be declared using the `const` keyword. Considering the restrictions and characteristics of constants in Cairo, which of the following statements is correct and what is its technical justification?
+
+A) Constants in Cairo can be declared anywhere in the code, even within functions, as long as the variable scope rules are respected.
+
+B) Las constantes en Cairo pueden ser inicializadas con valores calculados en tiempo de ejecución si dichos cálculos no modifican el valor después de la inicialización.
+
+C) Las constantes en Cairo deben ser declaradas en el ámbito global y solo pueden ser inicializadas con expresiones constantes, no con resultados de cálculos en tiempo de ejecución.
+
+Correct answer: C
+
+Justification: Constants in Cairo, being immutable and declared in the global scope, must have a value defined at compile time. This ensures that they do not depend on runtime calculations, improving security and allowing compiler optimizations, guaranteeing a predictable value throughout the program.

@@ -25,3 +25,24 @@ C)
 Correct answer: B
 
 Justification: `u8` is an unsigned integer type which cannot contain negative numbers.
+
+### Question #3
+
+Determine whether the program will pass the compiler. If it passes, write the expected output of the program if it were executed.
+
+```rust
+fn main() {
+  let x: felt32 = 2;
+  println!("{x}");
+}
+```
+
+A) This program **does not** compile.
+
+B) This program **does** compile.
+
+C) The output of this program will be x
+
+Correct answer: A
+
+Justification: The type `felt32` does not exist. Proper field type is `felt252`

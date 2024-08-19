@@ -46,3 +46,17 @@ C) The output of this program will be x
 Correct answer: A
 
 Justification: The type `felt32` does not exist. Proper field type is `felt252`
+
+### Question #4
+
+Which of the following statements is correct regarding the felt252 type in Cairo?
+
+A) `felt252` is a 252-bit integer type, used to represent negative and positive numbers.
+
+B) `felt252` es un tipo especial que representa elementos de campo, donde los valores se encuentran en un rango específico determinado por un número primo grande.
+
+C) `felt252` es un tipo flotante similar a `f32` o `f64` en otros lenguajes de programación.
+
+Correct answer: B
+
+Justification:

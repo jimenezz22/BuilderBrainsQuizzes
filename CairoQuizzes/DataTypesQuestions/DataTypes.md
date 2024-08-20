@@ -60,3 +60,25 @@ C) `felt252` es un tipo flotante similar a `f32` o `f64` en otros lenguajes de p
 Correct answer: B
 
 Justification:
+
+### Question #5
+
+What will be the result of the next conversion in Cairo?
+
+```rust
+fn main() {
+    let x: felt252 = 10;
+    let y: u8 = x.try_into().unwrap();
+    println!("El valor de y es: {}", y);
+}
+```
+
+A) The value of y will be 10.
+
+B) The code will throw a conversion error if `x` is greater than `u8::MAX`
+
+C) El valor de `y` será truncado a 8 bits, con un valor final de 2
+
+Correct answer: A
+
+Justification: The value`10` fits within the range of a `u8`, so the conversion is successful and `y` takes the value `10`

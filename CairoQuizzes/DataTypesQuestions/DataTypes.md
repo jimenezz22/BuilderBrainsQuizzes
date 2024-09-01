@@ -82,3 +82,17 @@ C) El valor de `y` será truncado a 8 bits, con un valor final de 2
 Correct answer: A
 
 Justification: The value`10` fits within the range of a `u8`, so the conversion is successful and `y` takes the value `10`
+
+### Question #6
+
+What is Cairo's behavior when attempting a safe conversion with try_into and the conversion fails?
+
+A) The conversion fails silently and returns a default value.
+
+B) The conversion returns a `Result` or `Option`, and the error must be handled to avoid a runtime panic.
+
+C) Cairo allows the conversion, but throws a warning instead of an error.
+
+Correct answer: B
+
+Justification:

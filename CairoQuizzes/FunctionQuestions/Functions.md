@@ -36,3 +36,23 @@ C) Does compile with warnings
 Correct answer:
 
 Justification:
+
+### Question #3
+
+In Cairo, a curly-brace block like { /* ... */ } is:
+
+An expression
+A statement
+A syntactic scope
+
+A) 2 only
+
+B) 1 only
+
+C) 2 and 3
+
+D) 1 and 3
+
+Correct answer:
+
+Justification:

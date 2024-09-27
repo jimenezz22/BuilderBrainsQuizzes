@@ -10,7 +10,7 @@ C) let fn
 
 Correct answer: A
 
-Justification:
+Justification: In Cairo, functions are declared using the fn keyword, similar to Rust. The keyword pub is used to denote public functions, but fn alone is used to declare a function in its basic form​.
 
 ### Question #2
 
@@ -33,9 +33,9 @@ B) Does not compile
 
 C) Does compile with warnings
 
-Correct answer:
+Correct answer: B
 
-Justification:
+Justification: The function f is missing a type annotation for the parameter x. In Cairo (as in Rust), all function parameters must have explicitly defined types. Since the type of x is not specified in fn f(x), this would lead to a compilation error​.
 
 ### Question #3
 
@@ -79,6 +79,6 @@ B) Does not compile
 
 C) Does compile with warnings
 
-Correct answer:
+Correct answer: 
 
 Justification:

@@ -53,9 +53,9 @@ C) 2 and 3
 
 D) 1 and 3
 
-Correct answer:
+Correct answer: D) 
 
-Justification:
+Justification: In Cairo, as in Rust, a curly-brace block is both an expression (it can evaluate to a value) and defines a syntactic scope. It can be used to define a scope in which variables are valid only inside the block, and it can also return a value from that scope, making it an expression​​.
 
 ### Question #4
 

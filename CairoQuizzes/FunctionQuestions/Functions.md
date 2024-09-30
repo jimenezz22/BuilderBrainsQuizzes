@@ -79,6 +79,6 @@ B) Does not compile
 
 C) Does compile with warnings
 
-Correct answer: 
+Correct answer: A
 
-Justification:
+Justification: This program compiles successfully because the block { let y = 1; y + 1 } is an expression that evaluates to 2, which is then passed as the argument to f. The function f adds 1 to this value, resulting in 3 being printed. The block in the println! call is valid and returns a value that can be passed to f

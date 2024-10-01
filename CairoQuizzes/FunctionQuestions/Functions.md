@@ -82,3 +82,30 @@ C) Does compile with warnings
 Correct answer: A
 
 Justification: This program compiles successfully because the block { let y = 1; y + 1 } is an expression that evaluates to 2, which is then passed as the argument to f. The function f adds 1 to this value, resulting in 3 being printed. The block in the println! call is valid and returns a value that can be passed to f
+
+### Question #4
+
+Does the following program compile correctly? If so, indicate the expected result if executed.
+
+```rust
+fn double_value(x: usize) -> usize {
+    x * 2
+}
+
+fn main() {
+    let z = {
+        let a = 10;
+        a + 5
+    };
+
+    println!("{}", double_value(z));
+}
+```
+
+This program:
+
+A) Yes it compiles
+
+B) Does not compile
+
+C) Compile with warnings

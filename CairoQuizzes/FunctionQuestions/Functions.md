@@ -83,7 +83,7 @@ Correct answer: A
 
 Justification: This program compiles successfully because the block { let y = 1; y + 1 } is an expression that evaluates to 2, which is then passed as the argument to f. The function f adds 1 to this value, resulting in 3 being printed. The block in the println! call is valid and returns a value that can be passed to f
 
-### Question #4
+### Question #5
 
 Does the following program compile correctly? If so, indicate the expected result if executed.
 
@@ -109,3 +109,7 @@ A) Yes it compiles
 B) Does not compile
 
 C) Compile with warnings
+
+Correct answer: A
+
+Justification: The block { let a = 10; a + 5 } is a valid expression that evaluates to 15. This value is assigned to z, which is then passed as an argument to the double_value function, which returns double the value (30 in this case). The program will print 30 without compilation errors​.

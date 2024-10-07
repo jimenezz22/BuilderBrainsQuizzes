@@ -113,3 +113,34 @@ C) Compile with warnings
 Correct answer: A
 
 Justification: The block { let a = 10; a + 5 } is a valid expression that evaluates to 15. This value is assigned to z, which is then passed as an argument to the double_value function, which returns double the value (30 in this case). The program will print 30 without compilation errors​.
+
+### Question #6
+
+Will the following program pass the compiler? If it passes, what is the expected output of the program?
+
+```rust
+fn add_one(x: usize) -> usize {
+    x + 1
+}
+
+fn main() {
+    let result = add_one({
+        let temp = 3;
+        temp * 2
+    });
+
+    println!("{}", result);
+}
+```
+
+This program:
+
+A) Does compile
+
+B) Does not compile
+
+C) Does compile with warnings
+
+Correct answer: A) 
+
+Justification: The block { let temp = 3; temp * 2 } is a valid expression that evaluates to 6. This value is passed to the add_one function, which adds 1, returning 7. The program will compile and print 7 without errors​​.
